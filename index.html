@@ -1,0 +1,164 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="styles.css">
+<title> 5Star Vacations </title>
+</head>
+
+<body>
+	<div id="container">
+		
+<div id="heading">
+	<!---THE HEADING IS BELOW--->
+
+	<div id="logo">
+		<!---WEBSITE LOGO IN TOP LEFT CORNER--->
+		<img src ="imgs/logo.jpg" alt="Travel Logo" width="33px" height="35px" />
+	</div>
+
+	<div id="title">
+		<!---WEBSITE TITLE IN HEADER--->
+		<span style="font-size: 30px"> 5Star Vacations </span>
+	</div>
+
+		<table id="menu">
+			<!---OPTIONS FOR SELECTION BY USER INCLUDE:
+				MY FAVORITES, NEW SEARCH, RECOMMENDATIONS--->
+			<tr>
+				<th style="background: gray;width: 100px; height: 30px;" class="menuButtons">My Favorites </th>  
+				<th style="background: gray;width: 100px; height: 30px;" class="menuButtons">New Search </th> 
+				<th style="background: gray; width: 100px; height: 30px;" class="menuButtons">Recommendations </th>
+			</tr>
+		</table>
+		
+</div>
+
+
+<div id="body" style="background: black">
+	<!---THE BODY IS THE MAIN PART OF THE WEBPAGE--->
+
+	<div id="left" style="background: rgb(80, 133, 182)">
+		<!---THE LEFT COLUMN IS 1/3 OF THE SCREEN AND DIVIDED INTO 3 SECTIONS
+		INCLUDING PERSONAL INFORMATION, LAST OPINIONS, AND PREFERENCES--->
+		
+		<!---THE USER'S USERNAME IS BELOW--->
+		<img src="imgs/img.png" alt="Profile Picture" id="img">
+		<h1 id="username"> Iana7 </h1>
+
+		<!---THE USER'S PERSONAL INFORMATION IN THE LEFT SECTION-->
+		<dl id="personalInformation" >  
+			<dt style="font-weight: bold;" > Personal Information </dt>
+			<dd style="margin-top: 5px"> Name: Iana Belitchka. <br> Origin: Bulgaria. <br> Member since 2008. </dd>
+		</dl>
+		<hr>	
+
+		<!---THE USER'S LAST OPINIONS IN THE LEFT SECTION-->
+		<dl id="lastOpinions"> 
+		<dt style="font-weight: bold">
+			Last Opinions
+			</dt>
+		<dd style="margin-top: 5px">
+			<u> Westin Hotel, Madrid </u>
+        	<br>The Westin Hotel was extremely beautiful!
+        	<br>We stayed here for 4 nights and loved the location
+        	<br>as well as the staff. We would definitely recommend
+        	<br>this to a friend.</p>
+			</dd>
+		<dd style="margin-top: 5px">
+			<u> Restaurant Winnies, Montreal </u>
+			<br> Love it!
+			<br> This restuarant has wonderful food
+			<br> and excellent ambience. Would recommend the 
+			<br> place for a large group of people.</p>
+			</dd>
+		<dd style="margin-top: 5px">
+			<u> Restaurant Aveiro, Montreal </u>
+			<br> This restaurant is absolutely amazing.
+			<br> They have my favorite burger in Montreal
+			<br> and also the best french fries. This restaurant
+			<br> is good for a quick meal.
+			</dd>
+		</dl>
+		<hr>
+
+		<!---THE USER'S PREFERENCES ARE BELOW-->
+		<dl id="myPreferences"> 
+			<dt style="font-weight: bold">
+				My Preferences
+				<img src="imgs/plus.png" class="plus"> 
+				</dt>
+			<dd style="margin-top: 10px"> 
+
+			<!---THE SELECTED PREFERENCE BOXES-->
+			<pre id="box1" > Weekends 	X</pre>
+			<pre id="box2" > Location 	X</pre>
+			<pre id="box3" > Inexpensive	X</pre>
+			</dd>
+		</dl>
+
+	</div>
+
+
+
+	<!---THE RIGHT COLUMN IS BELOW WHICH IS THE RIGHT 2/3 OF THE SCREEN-->
+	<div id="right" style="background:rgb(2, 15, 73)"> 
+
+		<!---IN TABLET VIEW, THE OPTIONS FROM THE LEFT COLUMN ARE BELOW THE HEADER-->
+		<table id="tablet_options">
+			<tr>
+				<th style="background: rgb(194, 194, 194);width: 80px" class="menuButtons"><u>Personal Information </u></th>  
+				<th style="background: rgb(194, 194, 194);width: 80px" class="menuButtons">Last Opinions </th> 
+				<th style="background: rgb(194, 194, 194); width: 80px" class="menuButtons">My Preferences </th>
+			</tr>
+		</table>
+
+		<!---THIS SECTION INCLUDES THE FORM FOR PERSONAL INFORMATION-->
+		<div id="right_section1" >
+
+			<span id="PI" style="font-size: 30px; margin-left: 15px;"> Personal Information </span>
+			<form>
+				<input type="text" style="margin-top:12px; margin-left:2%; margin-right:2%; width: 43%;" placeholder="Name"> 
+				<input type="text" style="margin-top:12px; margin-left:2%; margin-right:2%; width: 43%;" placeholder="Surname";>
+				<br>				
+				<input type="text" style="margin-top:12px; margin-left:2%; margin-right:2%; width: 90.5%;" placeholder="email"> 
+				<br>
+				<input type="text" style="margin-top:12px; margin-left:2%; margin-right:2%; width: 43%;" placeholder="address"> 
+				<input type="text" style="margin-top:12px; margin-left:2%; margin-right:2%; width: 43%;" placeholder="mobile phone">
+				<br>				
+				<input type="text" style="margin-top:12px; margin-left:2%; margin-right:2%; width: 90.5%;" placeholder="birthday"> 
+			</form>
+		</div>
+
+		<!---THIS SECTION INCLUDES THE CIRCLES INDICATING USER ACTIVITY-->
+		<div id="right_section2">
+			<span id="MyActivity"> My Activity in the App </span>
+			<br>
+			<br>
+			<div id="circle_container">
+				<div id="circle">25 <br>Points  </div>
+				<div id="circle">2 <br>Level  </div>
+				<div id="circle">30 <br>Opinions  </div>
+				<div id="circle">4 <br>Photos  </div>
+			</div>
+		</div>
+	
+		<!---IN SMARTPHONE VIEW, THE OPTIONS FROM THE LEFT COLUMN ARE BELOW THE BODY -->
+		<table id="smartphone_options">
+			<tr>
+				<th style="font-weight: bold; background: rgb(194, 194, 194); width: 80px" class="menuButtons"> <img src ="https://cdn.pixabay.com/photo/2012/04/26/19/43/profile-42914_960_720.png" alt="Person Logo" width="33px" height="35px" /><br>Personal </th>  
+				<th style="background: rgb(194, 194, 194); width: 80px" class="menuButtons"><img src="http://clipart-library.com/clipart/475046.htmOpinions" alt="Message Logo" width="33px" height="35px" /><br>Opinions </th> 
+				<th style="background: rgb(194, 194, 194); width: 80px" class="menuButtons"><img src="https://www.google.es/imgres?imgurl=http%3A%2F%2Fcoalitionforfreesyria.org%2Fwp-content%2Fuploads%2Fhearts-clip-art-black-and-white-valentine-week-6-heart-clipart-png-999-928-19.png&imgrefurl=http%3A%2F%2Fcoalitionforfreesyria.org%2Fheart-clipart-black-and-white%2Fhearts-clip-art-black-and-white-valentine-week-6-heart-clipart-png-999-928-19%2F&docid=xonHTqARnLI8ZM&tbnid=rVYjALXB20Th0M%3A&vet=10ahUKEwi0nqe-r9TdAhVGOhoKHQCkBakQMwiTAigjMCM..i&w=999&h=928&itg=1&bih=711&biw=731&q=heart%20clipart&ved=0ahUKEwi0nqe-r9TdAhVGOhoKHQCkBakQMwiTAigjMCM&iact=mrc&uact=8" alt="Heart Logo" width="33px" height="35px" /><br>Preferences </th>
+			</tr>
+		</table>
+	</div>
+</div>
+
+<div id="footer">
+
+</div>
+
+</div>
+
+</body>
+
+</html>
